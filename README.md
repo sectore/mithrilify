@@ -39,13 +39,11 @@ module.exports = View;
 
 ```bash
 $ browserify -t mithrilify ./view.js > ./bundle.js
-
 ```
 
 ### [Gulp](http://gulpjs.com/) and [gulp-browserify](https://github.com/deepak1556/gulp-browserify)
 
 ```javascript
-
 var gulp = require('gulp');
   browserify = require('gulp-browserify'),
   rename = require('gulp-rename');
@@ -75,11 +73,13 @@ browserify: {
     }
   }
 }
+```
+
 
 ### Output:
 
-```javascript
 
+```javascript
 /** @jsx m */
 'use strict';
 
@@ -89,7 +89,6 @@ var View = function (ctrl) {
     ]);
 };
 module.exports = AppView;
-
 ```
 
 ## Test
