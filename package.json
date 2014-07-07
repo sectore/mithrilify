@@ -1,0 +1,40 @@
+{
+  "name": "mithrilify",
+  "description": "Browserify transform for precompiling Mithril views",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sectore/mithrilify",
+  "bugs": "https://github.com/sectore/mithrilify/issues",
+  "license": "MIT",
+  "main": "lib/mithrilify.js",
+  "author": {
+    "name": "Jens Krause",
+    "email": "info@websector.de",
+    "url": "http://websector.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sectore/mithrilify"
+  },
+  "keywords": [],
+  "dependencies": {
+    "msx": "^0.1.3",
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.0",
+    "debug": "^1.0.2",
+    "gulp": "^3.6.2",
+    "gulp-bump": "^0.1.8",
+    "gulp-jscs": "^0.4.2",
+    "gulp-jshint": "^1.5.5",
+    "gulp-load-plugins": "^0.5.1",
+    "gulp-mocha": "^0.4.1",
+    "gulp-plumber": "^0.6.2",
+    "gulp-util": "2.2.16",
+    "jshint-stylish": "^0.2.0",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
+}
