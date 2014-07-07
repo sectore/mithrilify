@@ -15,8 +15,11 @@ $ npm install --save-dev mithrilify
 
 
 ## Usage
+  
+### Example of a Mithril view template. 
 
-### Example file `view.js` of a Mithril view template with HTML
+It can be defined within a `*.js` or `*.msx` file and 
+should include `/** @jsx m */` at the top. 
 
 
 ```javascript
