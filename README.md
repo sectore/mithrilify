@@ -116,10 +116,15 @@ $ gulp test
 * [MSX](https://github.com/insin/msx) for supporting JSX to Mithril  
 * [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) to create a Node.js module with yo, including gulp and Mocha unit tests. 
 
+
+## Contributors
+
+[Naddiseo](https://github.com/Naddiseo)
+
+
 ## Release History
 
 [History](./HISTORY.md)
-
 
 
 ## License
