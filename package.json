@@ -21,18 +21,20 @@
     "through": "^2.3.4"
   },
   "devDependencies": {
-    "browserify": "^4.2.0",
-    "debug": "^1.0.2",
-    "gulp": "^3.6.2",
-    "gulp-bump": "^0.1.8",
-    "gulp-jscs": "^0.4.2",
-    "gulp-jshint": "^1.5.5",
-    "gulp-load-plugins": "^0.5.1",
-    "gulp-mocha": "^0.4.1",
-    "gulp-plumber": "^0.6.2",
-    "gulp-util": "2.2.16",
-    "jshint-stylish": "^0.2.0",
-    "should": "^4.0.4"
+    "browserify": "^5.11.0",
+    "browserify-transform-tools": "^1.2.1",
+    "debug": "^1.0.4",
+    "gulp": "^3.8.7",
+    "gulp-bump": "^0.1.11",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-mocha": "^1.0.0",
+    "gulp-plumber": "^0.6.5",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^0.4.0",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3"
   },
   "scripts": {
     "test": "gulp test"
