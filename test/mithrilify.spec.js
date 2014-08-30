@@ -4,8 +4,12 @@ var mithrilify = require('../lib/mithrilify.js'),
   should = require('should'),
   assert = require('assert'),
   browserify = require('browserify'),
+  sinon = require('sinon'),
   vm = require('vm'),
-  fs = require("fs");
+  fs = require("fs"),
+  through = require('through'),
+  path = require('path'),
+  transformTools = require('browserify-transform-tools');
 
 describe('mithrilify', function () {
 
@@ -71,6 +75,24 @@ describe('mithrilify', function () {
       result = mithrilify.hasMithrilExtension(file);
     result.should.be.ok;
     done();
+  });
+
+  it('should throw an error trying to parse an invalid view', function (done) {
+
+    var invalid_file = path.resolve(__dirname, "./mock/view_invalid.js");
+
+    transformTools.runTransform(
+      mithrilify,
+      invalid_file,
+      {},
+      function (error, result) {
+        // test messge of error object to check parse error
+        (error !== null).should.be.true;
+        var hasParseErrorMessage = error.message.indexOf('Parse Error:') > -1;
+        hasParseErrorMessage.should.be.true;
+        done();
+      })
+
   });
 
 });
