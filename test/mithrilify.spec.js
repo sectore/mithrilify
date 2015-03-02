@@ -21,7 +21,7 @@ describe('mithrilify', function () {
    */
   function bundle(file, cb) {
     return browserify(file, {basedir: __dirname})
-      .transform(mithrilify)
+      .transform(mithrilify, {msx_opts: {precompile:false}})
       .bundle(cb);
   };
 
@@ -40,7 +40,7 @@ describe('mithrilify', function () {
   it('should compile Mithril view', function (done) {
 
     var expectedView = 'function (ctrl) {'
-      + '  return m("div", ["Hello ", ctrl.name()])'
+      + '  return m("div", ["Hello ",ctrl.name()])'
       + '}';
 
     bundle('./mock/example.js', function (err, src) {
