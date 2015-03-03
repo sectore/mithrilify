@@ -130,7 +130,7 @@ $ gulp test
 
 ## License
 
-Copyright (c) 2014 Jens Krause. Licensed under the [MIT license](./LICENSE.md).
+Copyright (c) 2015 Jens Krause. Licensed under the [MIT license](./LICENSE.md).
 
 
 
