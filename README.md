@@ -119,7 +119,8 @@ $ gulp test
 
 ## Contributors
 
-[Naddiseo](https://github.com/Naddiseo)
+* [Naddiseo](https://github.com/Naddiseo)
+* [sibsibsib](https://github.com/sibsibsib)
 
 
 ## Release History
