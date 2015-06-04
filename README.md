@@ -1,7 +1,7 @@
-# mithrilify 
+# mithrilify
 
-[Browserify](http://browserify.org/) [transform](https://github.com/substack/node-browserify#btransformopts-tr) 
-for converting [Mithril](http://lhorie.github.io/mithril/) view templates 
+[Browserify](http://browserify.org/) [transform](https://github.com/substack/node-browserify#btransformopts-tr)
+for converting [Mithril](http://lhorie.github.io/mithril/) view templates
 using [MSX](https://github.com/insin/msx)
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
@@ -15,11 +15,11 @@ $ npm install --save-dev mithrilify
 
 
 ## Usage
-  
-### Example of a Mithril view template. 
 
-It can be defined within a `*.js` or `*.msx` file and 
-should include `/** @jsx m */` at the top. 
+### Example of a Mithril view template.
+
+It can be defined within a `*.js` or `*.msx` file and
+should include `/** @jsx m */` at the top.
 
 
 ```javascript
@@ -114,11 +114,12 @@ $ gulp test
 ## Credits:
 
 * [MSX](https://github.com/insin/msx) for supporting JSX to Mithril  
-* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) to create a Node.js module with yo, including gulp and Mocha unit tests. 
+* [generator-node-gulp](https://github.com/youngmountain/generator-node-gulp) to create a Node.js module with yo, including gulp and Mocha unit tests.
 
 
 ## Contributors
 
+* [magnetised](https://github.com/magnetised )
 * [Naddiseo](https://github.com/Naddiseo)
 * [sibsibsib](https://github.com/sibsibsib)
 
