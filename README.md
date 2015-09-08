@@ -23,7 +23,6 @@ should include `/** @jsx m */` at the top.
 
 
 ```javascript
-/** @jsx m */
 'use strict';
 
 var View = function (ctrl) {
@@ -80,7 +79,6 @@ browserify: {
 
 
 ```javascript
-/** @jsx m */
 'use strict';
 
 var View = function (ctrl) {
