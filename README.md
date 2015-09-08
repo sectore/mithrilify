@@ -86,7 +86,7 @@ var View = function (ctrl) {
       "hello"
     ]};
 };
-module.exports = AppView;
+module.exports = View;
 ```
 
 ## Test
