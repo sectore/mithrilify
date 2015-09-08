@@ -82,9 +82,9 @@ browserify: {
 'use strict';
 
 var View = function (ctrl) {
-  return m("div", [
+  return {tag: "div", attrs: {}, children: [
       "hello"
-    ]);
+    ]};
 };
 module.exports = AppView;
 ```
