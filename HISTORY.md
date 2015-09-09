@@ -1,5 +1,10 @@
 ## mithrilify - HISTORY
 
+### 0.0.5 - 2015/09/09
+- [#5 'Improving README consistency'](https://github.com/sectore/mithrilify/pull/5)
+- Remove deprecated `/* @jsx m */` pragma from mock files
+- Update node packages
+
 ### 0.0.4 - 2015/06/04
 - [#3 'Minor updates'](https://github.com/sectore/mithrilify/pull/3)
 
