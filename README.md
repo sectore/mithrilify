@@ -118,6 +118,7 @@ $ gulp test
 ## Contributors
 
 * [magnetised](https://github.com/magnetised )
+* [mkautzmann ](https://github.com/mkautzmann)
 * [Naddiseo](https://github.com/Naddiseo)
 * [sibsibsib](https://github.com/sibsibsib)
 
