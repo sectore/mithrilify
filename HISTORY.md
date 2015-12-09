@@ -1,5 +1,10 @@
 ## mithrilify - HISTORY
 
+
+### 0.0.6 - 2015/12/09
+- [#6 'Allow user to specify hasMithrilExtension'](https://github.com/sectore/mithrilify/pull/6)
+- Update node packages
+
 ### 0.0.5 - 2015/09/09
 - [#5 'Improving README consistency'](https://github.com/sectore/mithrilify/pull/5)
 - Remove deprecated `/* @jsx m */` pragma from mock files
